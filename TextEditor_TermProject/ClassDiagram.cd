@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="FileManager">
+    <Position X="2" Y="6.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>BAAABACAgAgAAIQAAAAAAAAAAQCABAEAAUAAAAgABAA=</HashCode>
+      <FileName>filemanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileStorage">
+    <Position X="6.25" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgBAAAQAAAAAAAAABAAAAAABAAAgAQAAAAAAAA=</HashCode>
+      <FileName>filestorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InstructionSet">
+    <Position X="8.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAEAAAAAEAAAQAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>instructionset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View">
+    <Position X="10.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAACAAEAIAIAAIAAAAAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>view.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextEditor">
+    <Position X="1.5" Y="0.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>BIIAEiAAAAQAAAIIAAAACgAIAAACAAQAgAAJAAFAAAA=</HashCode>
+      <FileName>textEditor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_fileManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InstructionSetBuilder" Collapsed="true">
+    <Position X="8" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAgAAAAAAAABAAAAABAAAAAAABAAg=</HashCode>
+      <FileName>instructionsetbuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LetterPointer" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAIAAAgAACABBBAAAAINAAAIAAAEAAAQQAQA=</HashCode>
+      <FileName>letterpointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InstructionExecutor" Collapsed="true">
+    <Position X="12" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAICACEAIcACQDABAhAAgAAEAAAAgCAToEAAA=</HashCode>
+      <FileName>instructionsetexecutor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="__unnamed_enum_009a_1">
+    <Position X="12.25" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAA4=</HashCode>
+      <FileName>errorSet.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
